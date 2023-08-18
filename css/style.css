@@ -1,9 +1,33 @@
 body {
     background-color: #1a1a1a;
-    color: #f2f2f2;
+    color: #ffffff;
     font-family: sans-serif;
 }
 
 a {
     color: #ffcc00;
+}
+
+div {
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #262626;
+    width: 750px;
+    border: 1px solid #b38f00;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.border {
+    border: 10px solid #ebebeb;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
