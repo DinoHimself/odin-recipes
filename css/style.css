@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 body {
     background-color: #1a1a1a;
+    background-image: url(../images/background.png);
     color: #ffffff;
     font-family: sans-serif;
 }
@@ -14,9 +21,9 @@ div {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    background-color: #262626;
+    background-color: #001133;
     width: 750px;
-    border: 1px solid #b38f00;
+    border: 3px solid #b38f00;
 }
 
 img {
@@ -30,4 +37,26 @@ img.border {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-menu li {
+    padding: 5px;
+    display: inline-block;
+
+}
+.nav-menu a {
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    margin: 0px auto;
+    border: 1px solid #b38f00;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: white;
 }
